@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>WMVA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Montserrat", sans-serif}
+img {margin-bottom: -7px}
+.w3-row-padding img {margin-bottom: 12px}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="wmva.html" class="w3-bar-item w3-button w3-wide">W M V A</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="aboutbio.html" class="w3-bar-item w3-button"> a b o u t (b i o)</a>
+      <a href="works.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> v a p o r w a v e TM</a>
+      <a href="contact.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> c o n t a c t</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT(BIO)</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">VAPORWAVE</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
+
+<!-- Header -->
+<div class="w3-opacity">
+<div class="w3-clear"></div>
+<header class="w3-center w3-margin-bottom">
+      <br><br><br>
+  <h1><b>About (Bio) </b></h1>
+  <p><b> Several true facts about wywy and his inspirations . </b></p>
+  <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Grid Cushion on/off</button></p>
+</header>
+</div>
+
+<!-- Photo Grid -->
+<div class="w3-row" id="myGrid" style="margin-bottom:128px">
+  <div class="w3-third">
+   <img src="O b a b o.gif" style="width:100%">
+    <img src="m o o m.gif" style="width:100%">
+    <img src="r e f l e c t.jpg" style="width:100%">
+    <img src="m o o m.gif" style="width:100%">
+    <img src="r e t r o w a v e.jpg" style="width:100%">
+    <img src="m o o m.gif" style="width:100%">
+   <img src="r e f l e c t.jpg" style="width:100%">
+      <img src="O b a b o.gif" style="width:100%">
+  </div>
+
+  <div class="w3-third">
+ <p>
+     This is my bio. Hello, I am the wyatt, I play guitar, videogames, chill with my buddies, and make vaporwave websites in my spare time. Additionally, I like to run because for me, running is quite fun. My great vaporwave website ambition began not too long ago. I could not think of a website idea; therefore I resorted to vaporwave for the sleek and aesthetically pleasing aspects of it's overall visage. I thank you gratefully for viewing my website and wish you a good day as well as good fortune and prosperity in life. Godspeed.☯ 
+     #ryanisbigrude :)
+ </p>
+     
+      <img src="w e e.gif" style="width:100%">
+       <img src="s k y z.gif" style="width:100%">
+       <img src="p l a n e t y.gif" style="width:100%">
+       <img src="s k e s.gif" style="width:100%">
+       <img src="s k i y.gif" style="width:100%">
+      <img src="t k y o.gif" style="width:100%">
+     <img src="d a n c b o b.gif" style="width:100%">
+     <img src="c i t a y e.gif" style="width:100%">
+       <img src="P w t h i n.gif" style="width:100%">
+        <img src="w e e.gif" style="width:100%">
+         <img src="p l a n e t y.gif" style="width:100%">
+          <img src="g o l m.gif" style="width:100%">
+           <img src="v a d a.gif" style="width:100%">
+ </div>
+
+  <div class="w3-third">
+   <img src="O b a b o.gif" style="width:100%">
+   <img src="m o o m.gif" style="width:100%">
+    <img src="r e f l e c t.jpg" style="width:100%">
+    <img src="m o o m.gif" style="width:100%">
+    <img src="r e t r o w a v e.jpg" style="width:100%">
+    <img src="m o o m.gif" style="width:100%">
+    <img src="r e f l e c t.jpg" style="width:100%">
+    <img src="O b a b o.gif" style="width:100%">
+  </div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">memes</a></p>
+</footer>
+ 
+<script>
+// Toggle grid padding
+function myFunction() {
+    var x = document.getElementById("myGrid");
+    if (x.className === "w3-row") {
+        x.className = "w3-row-padding";
+    } else { 
+        x.className = x.className.replace("w3-row-padding", "w3-row");
+    }
+
+}
+
+// Open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+
+</script>
+
+</body>
+</html>
+

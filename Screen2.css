@@ -1,0 +1,75 @@
+body{
+    font-family: comic, times,helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+header{
+    background: rgb(90,90,90);
+    color:white;
+    border-bottom:orange 3px solid;
+    min-height: 120px;
+    
+}
+
+header h1{
+    float:left;
+    margin-top: 50px;
+    
+}
+
+nav{
+    float: right;
+    margin-top: 50px;
+}
+
+header li{
+    
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color:black;
+    
+}
+
+header a{
+    text-decoration:none;
+    color:black;
+    text-transform: uppercase;
+    
+}
+#showcase{
+    
+    background:url() no-repeat 700px 335px;
+  
+    min-height: 1000px;
+    color:black;
+    font-family: sans-serif;
+}
+
+#Hats{
+    margin-top:20px;
+    
+}
+.hat{
+    float:left;
+    width:50%;
+   text-align: center;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header a: hover{ 
+    color:red;
+    font-weight: bold;
+}
+.hilight{
+    
+}
